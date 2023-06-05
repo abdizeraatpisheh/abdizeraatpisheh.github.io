@@ -9,13 +9,17 @@ website:
         text: Home
       - about.qmd
       - blog.qmd
+      - text: "Assignments"
+        menu: 
+         - assignment1.qmd
+         - Assignment2.qmd
       - CV.qmd
       - Contact me.qmd
       
 
 format:
   html:
-    theme: Academic
+    theme: United
     css: styles.css
     toc: true
 
